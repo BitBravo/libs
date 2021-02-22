@@ -18,7 +18,7 @@ class MultiInput extends HTMLElement {
       pointer-events: auto;
       position: absolute;
       right: 5px;
-      top: -1px;
+      top: 2px;
     }
 
     </style>`;
