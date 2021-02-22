@@ -146,6 +146,14 @@ class MultiInput extends HTMLElement {
     }
   }
 
+  setValues(values) {
+    if (typeof values === 'object') {
+      values.map(value => this._addItem(value))
+    } else (
+      this._addItem(values)
+    )
+  }
+
   // Public method for getting item values as an array.
   getValues() {
     const values = [];
